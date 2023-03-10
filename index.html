@@ -1,256 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resturant Website Prabh</title>
     <link rel="stylesheet" href="Style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-  <nav class="navbar">
-      <div class="navbar-container container">
-          
-            <ul class="menu-items">
-            <li><a href="#showcase">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#food">Category</a></li>
-            <li><a href="#food-menu">Menu</a></li>
-            <li><a href="#testimonails">Testimonial</a></li>
-            <li><a href="#contact">Contact</a></li>
-            </ul>
+
+
+    <header>
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <h1 class="logo">FW</h1>
+            <a href="#showcase">Home</a>
+            <a href="#about">About</a>
+            <a href="#food">Category</a>
+            <a href="#food-menu">Menu</a>
+            <a href="#testimonails">Testimonial</a>
+            <a href="#contact">Contact</a>
         </div>
- </nav>
 
- <section class="showcase-area" id="showcase" >
-       <div class="showcase-container">
-           <h1 class="main-title">Eat Right Food</h1>
-             <p>eat healty food</p>
-             <a href="#food-menu" class="btn btn-primary">Menu</a>
-        </div>
- </section>
+        <span class="nav-open-icon" onclick="openNav()">&#9776;</span>
 
-<section id="about">
-    <div class="about-wrapper container">
-        <div class="about-text">
-         <p class="small">About Us</p>   
-         <h2>we have been making healty food</h2>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, non neque incidunt perspiciatis in, laboriosam eos blanditiis quasi iure nulla impedit? Incidunt possimus voluptatum fuga mollitia ex. Porro aliquid aperiam placeat obcaecati. Sapiente, aliquam maiores voluptatum pariatur sequi necessitatibus at.</p>
+    </header>
+
+
+
+
+    <section class="showcase-area" id="showcase">
+        <div class="showcase-container">
+            <h1 class="main-title">Eat Right Food</h1>
+            <p>eat healty food</p>
+            <a href="#food-menu" class="btn btn-primary">Menu</a>
         </div>
-        <div class="about-image">
-             <img src="./img/about-photo.jpg" alt="strawberry" >
+    </section>
+
+    <section id="about">
+        <div class="about-wrapper container">
+            <div class="about-text">
+                <p class="small">About Us</p>
+                <h2>we have been making healty food</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, non neque incidunt perspiciatis
+                    in, laboriosam eos blanditiis quasi iure nulla impedit? Incidunt possimus voluptatum fuga mollitia
+                    ex. Porro aliquid aperiam placeat obcaecati. Sapiente, aliquam maiores voluptatum pariatur sequi
+                    necessitatibus at.</p>
+            </div>
+            <div class="about-image">
+                <img src="./img/about-photo.jpg" alt="strawberry">
+            </div>
         </div>
-    </div>
-</section>
-  <section id="food">
-      <h2>Types Of Foods</h2>
-      <div class="food-container container">
-          <div class="food-type fruits">
-              <div class="image-container">
-                  <img src="./img/food1.jpg" alt="" >
-                      <div class="image-content">
-                          <h3>Fruits</h3>
-                          <a href="https://en.wikipedia.org/wiki/Fruit" class="btn btn-primary" target="_blank">Learn More</a>
-                     </div>
-             </div>
-           </div>
-          
-           <div class="food-type vegitables">
-                <div class="image-container"> 
-                    <img src="./img/food2.jpg" alt="" >
+    </section>
+    <section id="food">
+        <h2>Types Of Foods</h2>
+        <div class="food-container container">
+            <div class="food-type fruits">
+                <div class="image-container">
+                    <img src="./img/food1.jpg" alt="">
+                    <div class="image-content">
+                        <h3>Fruits</h3>
+                        <a href="https://en.wikipedia.org/wiki/Fruit" class="btn btn-primary" target="_blank">Learn
+                            More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-type vegitables">
+                <div class="image-container">
+                    <img src="./img/food2.jpg" alt="">
                     <div class="image-content">
                         <h3>Vegetables</h3>
-                        <a href="https://en.wikipedia.org/wiki/Fruit" class="btn btn-primary" target="_blank">Learn More</a>
+                        <a href="https://en.wikipedia.org/wiki/Fruit" class="btn btn-primary" target="_blank">Learn
+                            More</a>
                     </div>
                 </div>
-          </div>
-          
-          <div class="food-type grain">
-              <div class="image-container">
-                  <img src="./img/food3.jpg" alt="" >
+            </div>
+
+            <div class="food-type grain">
+                <div class="image-container">
+                    <img src="./img/food3.jpg" alt="">
                     <div class="image-content">
                         <h3>Grains</h3>
-                        <a href="https://en.wikipedia.org/wiki/Fruit" class="btn btn-primary" target="_blank">Learn More</a>
-                   </div>
-              </div>
-          </div>
-      </div>
-  </section>
+                        <a href="https://en.wikipedia.org/wiki/Fruit" class="btn btn-primary" target="_blank">Learn
+                            More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section id="food-menu">
-      <h2 class="food-menu-heading">
-         Food Menu
-      </h2>
-    <div class="food-menu-container container">
-          <div class="food-menu-item">
-              <div class="food-image">
-                 <img src="./img/food-menu1.jpg" alt="food-menu1">
-              </div>
-              <div class="food-description">
-                  <h2 class="food-tittle">Food menu item1</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, est.</p>
-                  <p class="food-price">Price:&#8377</p>
-              </div>
-          </div>
-          <div class="food-menu-item">
-            <div class="food-image">
-               <img src="./img/food-menu2.jpg" alt="food-menu1">
+    <section id="food-menu">
+        <h2 class="food-menu-heading">
+            Food Menu
+        </h2>
+        <div class="food-menu-container container">
+            <div class="food-menu-item">
+                <div class="food-image">
+                    <img src="./img/food-menu1.jpg" alt="food-menu1">
+                </div>
+                <div class="food-description">
+                    <h2 class="food-tittle">Food menu item1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, est.</p>
+                    <p class="food-price">Price:&#8377</p>
+                </div>
             </div>
-            <div class="food-description">
-                <h2 class="food-tittle">Food menu item2</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, est.</p>
-                <p class="food-price">Price:&#8377</p>
+            <div class="food-menu-item">
+                <div class="food-image">
+                    <img src="./img/food-menu2.jpg" alt="food-menu1">
+                </div>
+                <div class="food-description">
+                    <h2 class="food-tittle">Food menu item2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, est.</p>
+                    <p class="food-price">Price:&#8377</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-image">
+                    <img src="./img/food-menu3.jpg" alt="food-menu1">
+                </div>
+                <div class="food-description">
+                    <h2 class="food-tittle">Food menu item3</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, est.</p>
+                    <p class="food-price">Price:&#8377</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-image">
+                    <img src="./img/food-menu4.jpg" alt="food-menu1">
+                </div>
+                <div class="food-description">
+                    <h2 class="food-tittle">Food menu item4</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, est.</p>
+                    <p class="food-price">Price:&#8377</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-image">
+                    <img src="./img/food-menu5.jpg" alt="food-menu1">
+                </div>
+                <div class="food-description">
+                    <h2 class="food-tittle">Food menu item5</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, est.</p>
+                    <p class="food-price">Price:&#8377</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-image">
+                    <img src="./img/food-menu6.jpg" alt="food-menu1">
+                </div>
+                <div class="food-description">
+                    <h2 class="food-tittle">Food menu item6</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, est.</p>
+                    <p class="food-price">Price:&#8377</p>
+                </div>
             </div>
         </div>
-        <div class="food-menu-item">
-            <div class="food-image">
-               <img src="./img/food-menu3.jpg" alt="food-menu1">
-            </div>
-            <div class="food-description">
-                <h2 class="food-tittle">Food menu item3</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, est.</p>
-                <p class="food-price">Price:&#8377</p>
-            </div>
-        </div>
-        <div class="food-menu-item">
-            <div class="food-image">
-               <img src="./img/food-menu4.jpg" alt="food-menu1">
-            </div>
-            <div class="food-description">
-                <h2 class="food-tittle">Food menu item4</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, est.</p>
-                <p class="food-price">Price:&#8377</p>
-            </div>
-        </div>
-        <div class="food-menu-item">
-            <div class="food-image">
-               <img src="./img/food-menu5.jpg" alt="food-menu1">
-            </div>
-            <div class="food-description">
-                <h2 class="food-tittle">Food menu item5</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, est.</p>
-                <p class="food-price">Price:&#8377</p>
-            </div>
-        </div>
-        <div class="food-menu-item">
-            <div class="food-image">
-               <img src="./img/food-menu6.jpg" alt="food-menu1">
-            </div>
-            <div class="food-description">
-                <h2 class="food-tittle">Food menu item6</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, est.</p>
-                <p class="food-price">Price:&#8377</p>
-            </div>
-        </div>
-      </div>
-  </section>
+    </section>
 
-  <section id="testimonails">
-    <h2 class="testimonail-title">
-        What Our Customers Say
-    </h2>
+    <section id="testimonails">
+        <h2 class="testimonail-title">
+            What Our Customers Say
+        </h2>
         <div class="testimonail-container container">
-               <div class="testimonail-box">
-                    <div class="star-rating">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                  </div>
-                    <p class="testimonail-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero praesentium nobis hic sed qui quasi.</p>
-                    <div class="customer-detail">
-                        <div class="customer-photo">
-                            <img src="./img/male-photo1.jpg" alt="" >
-                        </div>
-                           <p class="customer-name">John Doe</p>
-                    </div>
+            <div class="testimonail-box">
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
                 </div>
-                <div class="testimonail-box">
-                    <div class="star-rating">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                  </div>
-                    <p class="testimonail-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero praesentium nobis hic sed qui quasi.</p>
-                    <div class="customer-detail">
-                        <div class="customer-photo">
-                            <img src="./img/male-photo2.jpg" alt="" >
-                        </div>
-                           <p class="customer-name">Jay Doe</p>
+                <p class="testimonail-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero praesentium
+                    nobis hic sed qui quasi.</p>
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="./img/male-photo1.jpg" alt="">
                     </div>
+                    <p class="customer-name">John Doe</p>
                 </div>
-                <div class="testimonail-box">
-                    <div class="star-rating">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                  </div>
-                    <p class="testimonail-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero praesentium nobis hic sed qui quasi.</p>
-                    <div class="customer-detail">
-                        <div class="customer-photo">
-                            <img src="./img/male-photo3.jpg" alt="" >
-                        </div>
-                           <p class="customer-name">Jolly Doe</p>
+            </div>
+            <div class="testimonail-box">
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonail-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero praesentium
+                    nobis hic sed qui quasi.</p>
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="./img/male-photo2.jpg" alt="">
                     </div>
+                    <p class="customer-name">Jay Doe</p>
                 </div>
-         </div>
-</section>
-
-<section id="contact">
-   <div class="contact-container container">
-        <div class="contact-image">
-            <img src="./img/restraunt-image.jpg" alt="">
+            </div>
+            <div class="testimonail-box">
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonail-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero praesentium
+                    nobis hic sed qui quasi.</p>
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="./img/male-photo3.jpg" alt="">
+                    </div>
+                    <p class="customer-name">Jolly Doe</p>
+                </div>
+            </div>
         </div>
-        <div class="form-container">
-            <h2>Contact Us </h2>
-             <input type="text" name="" id="" placeholder="Name"><br>
-             <input type="email" name="" id="" placeholder="E-Mail"><br>
-             <textarea name="" id="" cols="30" rows="10" >Type your messege here</textarea><br>
-            <a href="#" class="btn btn-primary">Submit</a>
+    </section>
+
+    <section id="contact">
+        <div class="contact-container container">
+            <div class="contact-image">
+                <img src="./img/restraunt-image.jpg" alt="">
+            </div>
+            <div class="form-container">
+                <h2>Contact Us </h2>
+                <input type="text" name="" id="" placeholder="Name"><br>
+                <input type="email" name="" id="" placeholder="E-Mail"><br>
+                <textarea name="" id="" cols="30" rows="10">Type your messege here</textarea><br>
+                <a href="#" class="btn btn-primary">Submit</a>
+            </div>
         </div>
-   </div>
-</section>
+    </section>
 
-<footer id="footer">
-    <h2>Resturant Website &copy; all rights reserved <br />
-    Created by Prabhjot Singh
-    </h2>
-</footer>
+    <footer id="footer">
+        <h2>Resturant Website &copy; all rights reserved <br />
+            Created by Prabhjot Singh
+        </h2>
+    </footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
 
-      // Store hash
-      var hash = this.hash;
+    <script>
 
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
 
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script> 
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+
+    </script>
 
 </body>
+
 </html>
