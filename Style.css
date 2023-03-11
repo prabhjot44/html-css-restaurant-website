@@ -39,6 +39,9 @@ html {
 
 /*  --------------------  */
 
+.food-image {
+    padding-right: 20px;
+}
 
 .showcase-area {
     height: 50vh;
@@ -227,14 +230,7 @@ html {
     padding: 50px 0px 30px 0px;
 }
 
-.food-menu-container img {
-    display: block;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: center;
-}
+
 
 .food-menu-item {
     display: flex;
@@ -321,9 +317,7 @@ html {
     padding: 1rem;
 }
 
-.contact-image {
-    width: 50%;
-}
+
 
 .contact-image img {
     display: block;
@@ -345,7 +339,7 @@ html {
     width: 100%;
     border: none;
     border-bottom: 2px solid #ddd;
-    padding: 1rem 0rem;
+    padding: 1rem;
     box-shadow: none;
     outline: none;
     margin-bottom: 1rem;
@@ -358,7 +352,7 @@ html {
     width: 100%;
     border: none;
     border-bottom: 2px solid #ddd;
-    padding: 1rem 0rem;
+    padding: 1rem;
     box-shadow: none;
     outline: none;
     margin-bottom: 1rem;
@@ -428,6 +422,30 @@ html {
         padding-left: 20px;
     }
 
+    .contact-image {
+        width: 50%;
+    }
+
+   .form-container {
+    width: 50%;
+
+   }
+
+   .contact-container {
+    flex-direction: row;
+}
+
+.food-menu-container img {
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
 }
 
 
@@ -480,6 +498,36 @@ html {
         font-size: 36px;
         margin-left: 50px;
     }
+
+    .contact-image {
+        width: 100%;
+    }
+
+    .form-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .contact-container {
+        flex-direction: column;
+    }
+    .testimonail-container {
+        flex-direction: column;
+       }
+       .customer-photo {
+          margin-bottom: 5px;
+       }
+
+       .food-menu-container img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+       }
 
 }
 
