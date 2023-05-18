@@ -158,7 +158,6 @@ html {
 }
 
 .image-container {
-    margin: 0 1rem;
     position: relative;
 }
 
@@ -199,15 +198,9 @@ html {
     transition: all 1s ease;
 }
 
-.image-container:hover::after {
-    opacity: 1;
-    transform: scaleY(1);
-}
 
-.image-container:hover .image-content {
-    opacity: 1;
-    top: 40%;
-}
+
+
 
 .food-menu {
     display: flex;
@@ -330,7 +323,7 @@ html {
 
 .form-container {
     width: 50%;
-    padding: 2rem;
+    padding: 2rem 0rem;
     margin: auto;
 }
 
@@ -423,11 +416,11 @@ html {
     }
 
     .contact-image {
-        width: 50%;
+        width: 45%;
     }
 
    .form-container {
-    width: 50%;
+    width: 45%;
 
    }
 
@@ -442,6 +435,16 @@ html {
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
+}
+
+.image-container:hover::after {
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+.image-container:hover .image-content {
+    opacity: 1;
+    top: 40%;
 }
 
 
@@ -528,6 +531,22 @@ html {
         object-fit: cover;
         object-position: center;
        }
+
+       .food-container {
+        flex-direction: column;
+       }
+       .food-type  {
+        padding-bottom: 50px;
+       }
+
+       .food-container img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .contact-image img {
+         height: 300px;
+    }
 
 }
 
