@@ -20,12 +20,12 @@
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <h1 class="logo">FW</h1>
-            <a href="#showcase">Home</a>
-            <a href="#about">About</a>
-            <a href="#food">Category</a>
-            <a href="#food-menu">Menu</a>
-            <a href="#testimonails">Testimonial</a>
-            <a href="#contact">Contact</a>
+            <a href="#showcase" onclick="closeNav()">Home</a>
+            <a href="#about" onclick="closeNav()">About</a>
+            <a href="#food" onclick="closeNav()">Category</a>
+            <a href="#food-menu" onclick="closeNav()">Menu</a>
+            <a href="#testimonails" onclick="closeNav()">Testimonial</a>
+            <a href="#contact" onclick="closeNav()">Contact</a>
         </div>
 
         <span class="nav-open-icon" onclick="openNav()">&#9776;</span>
@@ -62,14 +62,18 @@
         <h2>Types Of Foods</h2>
         <div class="food-container container">
             <div class="food-type fruits">
-                <div class="image-container">
-                    <img src="./img/food1.jpg" alt="">
-                    <div class="image-content">
-                        <h3>Fruits</h3>
-                        <a href="https://en.wikipedia.org/wiki/Fruit" class="btn btn-primary" target="_blank">Learn
-                            More</a>
+            
+                    <div class="image-container">
+                        <img src="./img/food1.jpg" alt="">
+                        <div class="image-content">
+                            <h3>Fruits</h3>
+                            <a href="https://en.wikipedia.org/wiki/Fruit" class="btn btn-primary" target="_blank">Learn
+                                More</a>
+                        </div>
                     </div>
-                </div>
+
+            
+              
             </div>
 
             <div class="food-type vegitables">
@@ -224,7 +228,7 @@
     </section>
 
     <section id="contact">
-        <div class="contact-container container">
+        <div class="contact-container">
             <div class="contact-image">
                 <img src="./img/restraunt-image.jpg" alt="">
             </div>
